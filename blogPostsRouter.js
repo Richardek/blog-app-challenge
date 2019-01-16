@@ -38,7 +38,7 @@ router.post('/', (req, res) =>
     const item = BlogPosts.create
     (
         req.body.title,
-        req,body.content,
+        req.body.content,
         req.body.author
     );
     res.status(201).json(item);
