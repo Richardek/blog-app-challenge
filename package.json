@@ -9,11 +9,21 @@
   "dependencies": {
     "express": "^4.16.3",
     "morgan": "^1.9.0",
-    "uuid": "^3.2.1"
+    "uuid": "^3.3.2"
   },
   "keywords": [
     "node",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richardek/blog-app-challenge.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Richardek/blog-app-challenge/issues"
+  },
+  "homepage": "https://github.com/Richardek/blog-app-challenge#readme"
 }

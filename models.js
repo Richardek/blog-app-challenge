@@ -7,6 +7,8 @@
 // Our concern in this example is with how the API layer
 // is implemented, and getting it to use an existing model.
 
+const uuid = require("uuid");
+
 
 function StorageException(message) {
     this.message = message;
