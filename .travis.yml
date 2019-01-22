@@ -2,8 +2,7 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key:
-    secure: VYndAzpEUuXFkKvCqep/uO6TONQBnI/EQPcQUldzG9sHYnAHxJgIi8WGsfWNW658Up4K7Ipd3E1hqF7+TZzouFGG3xvSPJiZZe5q4PVbj1XpganB3n4ePm6M7q4ztE+HvNLDStLm5gJ7XbVSwfdqHKoInUoAHKphuICRjTGXIYE+4ikwjZE02v8FA4KnRQKp+NrwXxfTef7JCSUkpUuGGjkOFyoUzYHPrnxNRaRrrJp3cMppD3pZlD3x0680fsIQckX2IAxBdv3ao3xJIc5Exj2zyehGXaX/xrfNsaIZvd1yEmUV7qdTGE0V8+BS5jcjb98IcZ7ZoCG1j4fUnUe1s/JmjKAvoTw5Q2CFkLn2PYFzn1NILiYLRZW7f4RDc4TzMu1sELgX3luHkg6/EXYg0pmpwYYbQ7Dnh9evF6yHtmsdUUs9tl60DR01oIUtudVHXYgRzYUbNzlaEBU4zycxcAwsePDxcoofCJUBJJpqPdU4VnM5in5ww9qx2nZ1G9gpMpB8g2WEQCvgo4majvhpRpz/D3J6URwzsWq7zHZ2bPIQqkLUWBBolHp14uxGtamji+lM31enOLLVTDARFdjxQn8iF35GP69SslaTOVUuCl7Qx3vT2vYOMOX7u/y9GEcZXOviXC6dlIirzlqlPvoNpTNs85V7dEmwfzgO2sK+/0U=
-  app:  murmuring-shelf-53560
+  api_key: ''
+  app: blog-app-challenge
   on:
     repo: Richardek/blog-app-challenge
