@@ -30,7 +30,7 @@ describe("Blog Posts", function() {
           expect(item).to.have.all.keys(
             "id",
             "title",
-           // "content",
+           "content",
             "author",
             "publishDate"
           );
