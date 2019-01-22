@@ -2,7 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: ''
-  app:  obscure-mesa-74714
+  api_key:
+    secure: ShdHEbiw0pbnr7qmmjYc/zzf3j/2ihg417IqfPnao/Jlqel6ifTxkSNd9SsnQj50D0iO4/GKY2mZxxyCF0XZSi0a24EhjoUR9PisREM2aiX8BJV5X+N2mOAhQAQ6ey1xsZxBQCKr2DF5gKa3/SxuXG3WsNtMQHL++7utAykbXwggnp/Km3U4qaMQo2ynyTrto6FAZUBf8hckDrjUbjKLCoSOUA8RWXzFgqOSoduQhbiKx7sWPpWrygbAG0WYIcBCXZR+mQU6bg0ASpn+gcowrvmLQSPENowh4L3QIwf7YsGkvu5g0OShsiQBR4X+ua9RWufbL9Jg98RHFLkyWqPQZVB8Whpu7ltyr3xS81GZxZeWX5qUgyDp/k3GG6fYFM7zacvHSJtaKrJyfOBrlAB++WZ2Acaixy8x9j8GSb7VzRLXK0Zqy0933wKroo40NeFrjceZpt9YL7dktnCLtLHqByQWynWeVZWSO0Ip7y80XHDeLLt7nK9wdWyiBNX2+QaTnNoikyXtH8nA9UTAylA0c3Ab8QWWkOtZzkOOcxK88MY95A3xpqTC7G3qM5/fhPm9Sc08TXHYhN3eOzyMcaweyTItrwaljlsO++XEZ8X9/8hes3IDoci0MEh9DmmxsG5c1jqYJn7RolnBlF0K/xnFUzWnlrdiNEKA+xhm3GRtruk=
+  app: blog-app-challenge
   on:
     repo: Richardek/blog-app-challenge
