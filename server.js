@@ -1,14 +1,14 @@
 const express = require("express");
 const morgan = require("morgan");
 
-//importing the router 
 const blogPostsRouter = require("./blogPostsRouter");
 const app = express();
 
 app.use(morgan("common"));
 app.use(express.json());
 
-//any request made to /blog-post gets sent to the blogPostsRouter
+// you need to import `blogPostsRouter` router and route
+// requests to HTTP requests to `/blog-posts` to `blogPostsRouter`
 app.use("/blog-posts", blogPostsRouter);
 
 // both runServer and closeServer need to access the same
@@ -57,7 +57,3 @@ if (require.main === module) {
 }
 
 module.exports = { app, runServer, closeServer };
-
-app.listen(process.env.PORT || 8080, () => {
-  console.log(`Your app is listening on port ${process.env.PORT || 8080}`);
-});
